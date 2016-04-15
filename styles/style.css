@@ -1,0 +1,60 @@
+div.cell{
+    width:800px;
+    margin-left:16% !important;
+    margin-right:auto;
+}
+h4{
+    margin-top:12px;
+    margin-bottom: 3px;
+}
+div.text_cell_render{
+    font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    line-height: 145%;
+    font-size: 130%;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.CodeMirror{
+    font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
+}
+.prompt{
+    display: None;
+}
+.text_cell_render h5 {
+    font-weight: 300;
+    font-size: 22pt;
+    color: #4057A1;
+    font-style: italic;
+    margin-bottom: .5em;
+    margin-top: 0.5em;
+    display: block;
+}
+
+.warning{
+    color: rgb( 240, 20, 20 )
+}  
+
+ 
+table.dataframe { 
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 640px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+}
+
+table.dataframe td, table.dataframe th { 
+    border: 1px solid transparent;
+    height: 30px; transition: all 0.3s;  
+}
+
+table.dataframe th { background: #DFDFDF; font-weight: bold; }
+
+table.dataframe td { background: #FAFAFA; text-align: center; }
+
+table.dataframe tr:nth-child(even) td { background: #F1F1F1; }   
+table.dataframe tr:nth-child(odd) td { background: #FEFEFE; }  		
+table.dataframe tr td:hover { background: #666; color: #FFF; } /* Hover cell effect! */
